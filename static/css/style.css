@@ -1,0 +1,9 @@
+.status-light-off, .status-light-on, .status-light-error {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+.status-light-off { background-color: #f8f9fa; }
+.status-light-on { background-color: #198754; box-shadow: 0 0 8px #198754; }
+.status-light-error { background-color: #dc3545; box-shadow: 0 0 8px #dc3545; }
