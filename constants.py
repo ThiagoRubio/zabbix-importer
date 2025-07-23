@@ -51,17 +51,17 @@ SNMPV3_PROTOCOL_MAP = {
 
 # Communities para SNMPv2 (sem alteração)
 SNMPV2_COMMUNITIES = [
-    "nMSc0rpFL3x",
-    "nM$.c0rpF!3x",
-    "$gR.c0rpFL3x",
-    "sLwC0rPflEx"
+    "",
+    "",
+    "",
+    "s"
 ]
 
 # Configurações para SNMPv3 (sem alteração)
 SNMPV3_CONFIGS = {
-    "solarwinds.noc": {
+    "": {
         "auth_protocol": "MD5",
-        "auth_key": "Monit0r@m3nto",
+        "auth_key": "",
         "priv_protocol": None,
         "priv_key": None
     },
